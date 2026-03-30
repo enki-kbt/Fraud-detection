@@ -1,0 +1,24 @@
+# Credit Card Fraud Detection — Dependencies
+# ============================================
+# Python >= 3.9 recommended (3.11 tested)
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Download the dataset from Kaggle before running the notebook:
+#   https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+#   Place creditcard.csv in the same directory as fraud_analysis.ipynb
+
+# ── Notebook runtime ──────────────────────────────────────────────────────────
+jupyter>=1.0.0                     
+notebook>=7.0.0                   
+jupyterlab>=4.0.0                 
+
+# ── Core data stack ───────────────────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+
+# ── Machine learning ──────────────────────────────────────────────────────────
+scikit-learn>=1.4.0               
+xgboost>=2.0.0                    
+imbalanced-learn>=0.12.0           
